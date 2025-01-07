@@ -112,4 +112,4 @@ function myFind<T>(items: T[], myFindFunc: (v: T) => boolean): T | undefined {
 // console.log(mapedValue)
 
 const findFromList = myFind([4, 8, 9, 7, 3], (v) => v === 9);
-console.log(findFromList);
+// console.log(findFromList);
